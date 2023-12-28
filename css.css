@@ -1,0 +1,57 @@
+    /* Estilos CSS para el muñeco */
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .muñeco {
+      position: relative;
+      width: 100px;
+      height: 180px;
+    }
+    .linea {
+      position: absolute;
+      background-color: #000;
+    }
+    .cabeza {
+      width: 40px;
+      height: 40px;
+      top: 0;
+      left: 30px;
+      border-radius: 50%;
+    }
+    .cuerpo {
+      width: 4px;
+      height: 80px;
+      top: 40px;
+      left: 48px;
+    }
+    .brazo {
+      width: 40px;
+      height: 4px;
+    }
+    .brazo.left {
+      top: 50px;
+      left: 3px;
+    }
+    .brazo.right {
+      top: 50px;
+      right: 3px;
+    }
+    .pierna {
+      width: 4px;
+      height: 50px;
+    }
+    .pierna.left {
+      top: 115px;
+      left: 35px;
+      transform: rotate(30deg);
+    }
+    .pierna.right {
+      top: 115px;
+      right: 35px;
+      transform: rotate(-30deg);
+    }
